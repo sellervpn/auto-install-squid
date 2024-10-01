@@ -31,9 +31,8 @@ Script ini akan membantu Anda menginstal dan mengkonfigurasi Squid Proxy di VPS 
 * cd auto-install-squid
 
 ### 3. Jalankan Script
+* Beri akses dan Run
 
     ```bash
     chmod +x install_squid.sh
-
-    ```bash
     sudo ./install_squid.sh
