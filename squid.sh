@@ -10,6 +10,7 @@ apt upgrade -y
 
 # Install Squid Proxy
 apt install squid -y
+apt install -y apache2-utils
 
 # Hentikan service Squid 
 systemctl stop squid
