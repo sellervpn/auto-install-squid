@@ -25,4 +25,12 @@ Script ini akan membantu Anda menginstal dan mengkonfigurasi Squid Proxy di VPS 
 ### 2. Clone Repository
 
 * Clone repository ini ke VPS Anda:
-   ```git clone
+   ```clone
+   git clone https://github.com/sellervpn/auto-install-squid.git
+
+* cd auto-install-squid
+
+### 3. Jalankan Script
+   ```bash
+   chmod +x install_squid.sh
+   sudo ./install_squid.sh
